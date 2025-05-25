@@ -14,27 +14,37 @@
         }
 
         .navbar {
-            background-color: #db5101;
-            padding: 15px 20px;
             display: flex;
+            justify-content: flex-start;
             align-items: center;
-            color: white;
+            background-color: #1a1a1a;
+            padding: 14px 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
-        .nav-links {
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
             display: flex;
-            gap: 20px;
         }
 
-        .nav-links a {
-            color: white;
+        .navbar li {
+            margin-right: 30px;
+        }
+
+        .navbar a {
             text-decoration: none;
+            color: white;
             font-weight: 500;
+            font-size: 16px;
+            transition: color 0.3s ease;
         }
 
-        .nav-links a:hover {
-            text-decoration: underline;
+        .navbar a:hover {
+            color: #FFA500;
         }
+
 
         .section-title {
             text-align: center;
